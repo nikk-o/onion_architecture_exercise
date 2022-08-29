@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordCounter.Web", "WordCounter\WordCounter.Web.csproj", "{3CFE0327-F2DE-40F9-A207-2038C023CC15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordCounter.Domain", "WordCounter.Domain\WordCounter.Domain.csproj", "{18EF09F8-0505-4AD0-A256-461CBC720AC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordCounter.Infrastructure", "WordCounter.Infrastructure\WordCounter.Infrastructure.csproj", "{93D155D0-E839-43F3-96B5-BC5101D6CB64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordCounter.Application", "WordCounter.Application\WordCounter.Application.csproj", "{8206C33A-FDB6-4652-9416-CB038D94902D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9A2A4C5C-167A-4E28-96E1-58D60252101D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCounter.DependencyInjection", "WordCounterDependencyInjection\WordCounter.DependencyInjection.csproj", "{80F6341C-50F6-469B-A6B6-B4185A5400C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CFE0327-F2DE-40F9-A207-2038C023CC15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFE0327-F2DE-40F9-A207-2038C023CC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFE0327-F2DE-40F9-A207-2038C023CC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFE0327-F2DE-40F9-A207-2038C023CC15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18EF09F8-0505-4AD0-A256-461CBC720AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18EF09F8-0505-4AD0-A256-461CBC720AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18EF09F8-0505-4AD0-A256-461CBC720AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18EF09F8-0505-4AD0-A256-461CBC720AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D155D0-E839-43F3-96B5-BC5101D6CB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D155D0-E839-43F3-96B5-BC5101D6CB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D155D0-E839-43F3-96B5-BC5101D6CB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D155D0-E839-43F3-96B5-BC5101D6CB64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8206C33A-FDB6-4652-9416-CB038D94902D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8206C33A-FDB6-4652-9416-CB038D94902D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8206C33A-FDB6-4652-9416-CB038D94902D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8206C33A-FDB6-4652-9416-CB038D94902D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F6341C-50F6-469B-A6B6-B4185A5400C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F6341C-50F6-469B-A6B6-B4185A5400C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F6341C-50F6-469B-A6B6-B4185A5400C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F6341C-50F6-469B-A6B6-B4185A5400C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD5A43F7-60C4-4864-82A0-A377E41510D5}
+	EndGlobalSection
+EndGlobal
